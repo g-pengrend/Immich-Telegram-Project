@@ -17,29 +17,26 @@ Here’s how the automation works from Telegram to Immich:
 
 ---
 
-<table>
-  <tr>
-    <td align="center">
-      <strong>1. Uploading a Photo in Telegram</strong><br>
-      <img src="images/telegram_upload.png" width="500"><br>
-      <em>A family member shares a photo in a Telegram group.</em>
-    </td>
-    <td align="center">
-      <strong>2. Photo Appears in Immich Automatically</strong><br>
-      <img src="images/immich_result.png" width="500"><br>
-      <em>The script uploads the photo to Immich automatically.</em>
-    </td>
-  </tr>
-</table>
+### Upoading a photo in Telegram
 
----
+<p align="center">
+  <img src="images/telegram_upload.png" width="800"><br>
+  <em>A family member shares a photo in a Telegram group.</em>
+</p>
 
-### 3. CLI Showing Automated Upload
+### Photo Appears in Immich Automatically
+
+<p align="center">
+  <img src="images/immich_result.png" width="800"><br>
+  <em>A family member shares a photo in a Telegram group.</em>
+</p>
+
+### CLI Showing Automated Upload
 
 The upload script runs via cron in WSL2 and shows successful uploads:
 
 <p align="center">
-  <img src="images/cli_upload.png" width="600"><br>
+  <img src="images/cli_upload.png" width="800"><br>
   <em>CLI output showing the automated cron job running the Telegram-to-Immich upload script.</em>
 </p>
 
